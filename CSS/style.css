@@ -1,0 +1,171 @@
+*{
+    padding:0%
+}
+@media (min-width: 576px) {
+	.img2 {
+		width: 540px;
+        border-radius: 10px;
+	}
+}
+.img3{
+	border-radius: 15px;
+    margin-left:80px;
+}
+.floatr{
+    float: right;
+    margin-right:80px;
+}
+.estilo1{
+
+    background-color:#4a46a7;
+    list-style:none;
+    text-decoration:none;
+    display:block;
+    color: #000000;
+}
+.estilo2{
+    list-style:none;
+    list-style:none;
+    text-decoration:none;
+    display:inline-flex;
+    color: #000000;
+    float: right;
+    
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+.botaomenu {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    background-color: #FFFFFF;
+    background-image: url("../Imagens/menuprincipal-btn-bg.png");
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    border-style: solid;
+    border-color: #c4c4c4;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.final{
+    list-style:none;
+    background-color: #4a46a7;
+}
+.textodomenu {
+    list-style:none;
+    text-decoration:none;
+    display:block;
+    color: #000000;
+    
+
+}
+.textodomenu2{
+    list-style:none;
+    text-decoration:none;
+    display:block;
+    color: #000000;
+    float: left;
+    margin-right: 25px;
+    margin-top: 15px;
+
+    
+}
+.diferente{
+    float: right
+}
+.igual{
+    float: left;
+}
+body{
+    background-color: rgb(143, 250, 250);
+    border-radius: 15px;
+
+
+}
+html{
+    background-image: url("../Imagens/barramas.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 15px;
+
+
+    
+}
+.ali{
+    text-align: center;
+    color:white;
+    background-color: black;
+    background-size:cover;
+    border-radius: 15px;
+
+    
+}
+.img{
+    border-style: solid;
+    border-color: #000000;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+@media (min-width: 1200px) {
+.img2{
+
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    border-radius: 10px;
+
+
+}
+}
+@media (min-width: 1200px) {
+	.imgo{
+    	background-size: cover;
+    	display: block;
+    	border-radius: 15px;
+    	margin-left:80px;
+}
+}
+.hi{
+    background-image: url("../Imagens/Paisagem Hotel.PNG");
+    background-repeat:no-repeat;
+
+}
+.finali{
+    list-style:none;
+
+}
+.home{
+    padding: 15px;
+    display: block;
+    font-size: 45;
+    padding-left: 85;
+
+}
+.form{
+    background-color: white;
+    display:inline-block;
+    padding: 30px;
+    border-radius: 10px;
+}
+.cabecalho {
+	background: #fff;
+	padding: 15px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.2)
+}
+.boa{
+    margin-top: 200px;
+}
+.coloque{
+	padding: 45px
+}
