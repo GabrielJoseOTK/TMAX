@@ -61,6 +61,7 @@
     border-radius: 5px;
 }
 .textodomenu {
+
     list-style:none;
     text-decoration:none;
     display:block;
@@ -147,6 +148,7 @@ html{
 
 }
 .home{
+    margin-top: 50px;
     padding: 15px;
     display: block;
     font-size: 45;
@@ -188,4 +190,9 @@ html{
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+}
+
+
+.tilulodestaque{
+    margin-left:5%
 }
