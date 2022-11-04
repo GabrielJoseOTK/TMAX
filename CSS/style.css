@@ -239,3 +239,6 @@ label{
 
     padding-top: 1px;
 }
+textarea{
+    border-radius: 10px;
+}
