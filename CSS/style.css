@@ -236,3 +236,19 @@ form{
     border-radius: 8px;
     width: 80%;
 }
+.benviar{
+    width: 80%;
+    background-color: #289cda;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 1s;
+
+
+}
+.benviar:hover{
+    transform: scale(1.1);
+    background-color: #118fca;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
