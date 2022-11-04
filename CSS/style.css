@@ -161,10 +161,17 @@ html{
 }
 
 .listaq{
-    margin-top: 15 px;
+    padding: 50px;
+    margin-top: 15px;
     text-align: center;
+
 }
 
+.listaq :hover{
+    background-color:aquamarine;
+    padding: 11px;
+
+}
 
 .home{
     margin-top: 50px;
