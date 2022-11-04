@@ -27,19 +27,51 @@
 
            <p><h1><b>Cadastre-se</b></h1></p>
         <form class="form">
-            <div  >
+            <fieldset>
             <p><h2>Dados de login</h2></p>
             <label for="CPF">CPF</label><br>
-            <input type="text" name="CPF" id="CPF"><br>
+            <input type="text" name="CPF" id="CPF" class="allright" required><br>
             <label for="Nome">Nome</label><br>
-            <input type="text" name="Nome" id="Nome"><br>
+            <input type="text" name="Nome" id="Nome" class="allright" required><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" id="email" class="allright" required><br>
             <label for="Numero Quarto">Numero Quarto</label><br>
-            <input type="number" name="Numero Quarto" id="Numero Quarto"><br>
+            <input type="number" name="Numero Quarto" id="Numero Quarto" class="allright" required><br>
             <label for="preferencias">preferencias</label><br>
-            <textarea name="preferencias" id="preferencias" cols="20" rows="10"></textarea>
+            <textarea name="preferencias" id="preferencias" cols="20" rows="10" class="allright" required></textarea>
+            <div>
+                <p>Gostaria de serviço de quarto</p>
+                <label for="Sim"><input type="radio" name="Serviço" value="Sim" id="Sim" >Sim</label>
+                
+                    
 
-            <p><input type="submit" name="Enter" value="Enviar"><br></p>
+            
+                <label for="Não"><input type="radio" name="Serviço" value="Não" id="Não">Não</label>
+                 
+                    
+
+            
+
             </div>
+
+            <label class="checkbox">
+                <input type="checkbox" name="notificacao" id="notificacao">
+                Gostaria de notificações por email?
+            </label>
+
+            <div>
+                <p>Qual tipo de quarto lhe atende?</p>
+                <select id="tipo_quarto" name="tipo_quarto " required>
+                    <option>Quarto para família(master)</option>
+                    <option>Quarto para casal(master)</option>
+                    <option>Quarto duplo(master)</option>
+                    <option>Quarto individual(master)</option>
+                    <option>Quarto individual(deluxe)</option>
+                    <option>Quarto para casal(deluxe) </option>
+                </select>
+            </div>
+            <p><input type="submit" name="Enter" value="Enviar"><br></p>
+            <fieldset>
 
         </form>
 
@@ -54,7 +86,7 @@
 
                 </ul>
             <div class="ali">
-                2020-2021 Todos os direitos reservados
+                2020-2021 Todos os direitos reservados&copy;
             </div>
 
         </footer>

@@ -225,20 +225,14 @@ html{
 
 
 form{
-    display: block;
+
     padding: 50px;
     margin-left: 0;
     margin-right: 0;
     width: 400px;
 }
-input{
+.allright{
 
+    border-radius: 8px;
     width: 80%;
-}
-label{
-
-    padding-top: 1px;
-}
-textarea{
-    border-radius: 10px;
 }
