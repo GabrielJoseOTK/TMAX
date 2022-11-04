@@ -222,3 +222,20 @@ html{
 .tilulodestaque{
     margin-left:5%
 }
+
+
+form{
+    display: block;
+    padding: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 400px;
+}
+input{
+
+    width: 80%;
+}
+label{
+
+    padding-top: 1px;
+}
