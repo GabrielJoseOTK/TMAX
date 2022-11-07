@@ -7,9 +7,12 @@
         border-radius: 10px;
 	}
 }
+
+
 .img3{
 	border-radius: 15px;
     margin-left:80px;
+    width:600px;
 }
 .floatr{
     float: right;
@@ -252,6 +255,68 @@ form{
     border-radius: 5px;
     cursor: pointer;
 }
-@media screen and (max-width: 480px) {
 
+.mapa{
+    display: block;
+    padding: 0px 15px 15px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 15px 15px 15px 15px;
+
+}
+.video{
+    width:560px ;
+    height:315px ;
+    border-radius:5px
+}
+
+@media screen and (max-width: 480px) {
+    .mapa{
+        display: block;
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 15px 15px 15px 15px;
+    
+    }
+    .centro{
+        text-align: center;
+        display: block;
+        padding: 5px;
+    }
+    .video{
+        width:90% ;
+        height:250px ;
+        border-radius:5px
+    }
+    .img3{
+        margin-left: 25px;
+        width: 80%;
+    }
+    .home{
+        margin-top: 50px;
+
+        display: block;
+        font-size: 45;
+        padding-left: 85;
+    
+    }
+    .estilo2{
+        text-transform:uppercase;
+        list-style:none;
+        list-style:none;
+        text-decoration:none;
+        display:inline-flex;
+        color: #000000;
+        float: right;
+        font-size: 10px;
+        padding-top: 3px;
+        padding-left: 1px;
+        padding-right: 1px;
+    
+    
+    }
+    .floatr{
+        padding: 15px;
+    }
+    
 }
