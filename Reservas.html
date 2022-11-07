@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <!--usado para ver as reservas já feitas-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body class="cor">
+        <header class="c">
+               
+            <ul class="estilo2">
+
+                <li><b><a class="textodomenu2" href="index.html">Home</a></b></li>
+                <li><b><a class="textodomenu2" href="Quartos.html">Quartos</a></b></li>
+                <li><b><a class="textodomenu2" href="Contatos.html">Contatos</a></b></li>
+                <li><b><a class="textodomenu2" href="Sobre Nós.html">Sobre Nós</a></b></li>
+                <li><b><a class="textodomenu2" href="Reservas.html">Reservas</a></b></li>
+
+            </ul>
+                <h1 class="home">
+                    Reservas
+                </h1>
+        </header>
+        <main class="centro">
+
+           <p><h1><b>Cadastre-se</b></h1></p>
+        <form class="form">
+            <fieldset>
+            <p><h2>Dados de login</h2></p>
+            <label for="CPF">CPF</label><br>
+            <input type="text" name="CPF" id="CPF" class="allright" required><br>
+            <label for="Nome">Nome</label><br>
+            <input type="text" name="Nome" id="Nome" class="allright" required><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" id="email" class="allright" required><br>
+            <label for="Numero Quarto">Numero Quarto</label><br>
+            <input type="number" name="Numero Quarto" id="Numero Quarto" class="allright" required><br>
+            <label for="preferencias">preferencias</label><br>
+            <textarea name="preferencias" id="preferencias" cols="20" rows="10" class="allright" required></textarea>
+            <div>
+                <p>Gostaria de serviço de quarto</p>
+                <label for="Sim"><input type="radio" name="Serviço" value="Sim" id="Sim" >Sim</label>
+                
+                    
+
+            
+                <label for="Não"><input type="radio" name="Serviço" value="Não" id="Não" >Não</label>
+                    
+
+            
+
+            </div>
+
+            <label class="checkbox">
+                <input type="checkbox" name="notificacao" id="notificacao">
+                Gostaria de notificações por email?
+            </label>
+
+            <div>
+                <p>Qual tipo de quarto lhe atende?</p>
+                <select id="tipo_quarto" name="tipo_quarto " required>
+                    <option>Quarto para família(master)</option>
+                    <option>Quarto para casal(master)</option>
+                    <option>Quarto duplo(master)</option>
+                    <option>Quarto individual(master)</option>
+                    <option>Quarto individual(deluxe)</option>
+                    <option>Quarto para casal(deluxe) </option>
+                </select>
+            </div>
+            <p><input type="submit" name="Enter" value="Enviar" class="benviar"><br></p>
+            <fieldset>
+
+        </form>
+
+        </main>
+        <footer>
+            <div>
+                <ul class="final">
+                    <li><a class="textodomenu" href="index.html">home</a></li>
+                    <li><a class="textodomenu" href="Quartos.html">Quartos</a></li>
+                    <li><a class="textodomenu" href="Contatos.html">Contatos</a></li>
+                    <li><a class="textodomenu" href="Sobre Nós.html">Sobre Nós</a></li>
+                    <li><a class="textodomenu" href="Reservas.html">Reservas</a></li>
+                </ul>
+            <div class="ali">
+                2020-2021 Todos os direitos reservados&copy;
+            </div>
+
+        </footer>
+    </body>
+</html>
